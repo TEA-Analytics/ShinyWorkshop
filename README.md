@@ -1,79 +1,81 @@
 # ShinyWorkshop
 
-#### Datetime
+### Datetime
 - Aug 27 & 28 2019, 12:30p - 4p (EST) or 9:30 - 1p (PST)
 
-#### Location
+### Location
 - Resource-JAX Boardroom
 - Resource-Seattle North Conference Room
 - Resource-Conf-3# +1 (872) 240-3212 Code: 122-799-485
 
 ## Agenda 
 
-#### Aug 27
+### Aug 27
 
-- Lunch/Breakfast (while setting up laptops)
+1. Lunch/Breakfast (while setting up laptops)
     - Install all needed packages
     - Download workshop files
 
-- Basic app structures
+1. Basic app structures
     - Widget Gallery
 
-- 'teadashboard'
+1. 'teadashboard'
     - Page layout
     - login display
     
-- Tour of Existing TEA Shiny Apps
+1. Tour of Existing TEA Shiny Apps
 
-- Understanding Reactivity
+1. Understanding Reactivity
     - Reactive vs reactiveValues
     - observe
     
-- Timing for Loading Data
+1. Timing for Loading Data
 
-- Table Choices
+1. Table Choices
 
-- Adding Interactive Plots
+1. Adding Interactive Plots
     - html widgets
     - base shiny interactivity
 
-- Miscellaneous Topics
+1. Miscellaneous Topics
     - Download 
     - Progress bar
     - Rmarkdown from shiny
 
-- Shiny vs Tableau (open group discussion)
+1. Shiny vs Tableau (open group discussion)
 
-#### Aug 28
+### Aug 28
 
-- Lunch/Breakfast (while setting up github connections)
+1. Lunch/Breakfast
+    - Set up github connections
+    - Projects with git
 
-- Deployment process
+1. Deployment process
     - Dev vs Staging vs PROD
     - File locations
     - RStudio server
     - Setting up user groups
     - External access by clients
 
-- Known Issues
+1. Known Issues
     - Package management
     - Concurrent uses
     - Errors
-
-- Git & GitHub
-    - Excercise: Create issues, commmits, pull requests. 
     
-- Apps out there
+1. Apps out there
     - https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/
 
-- Debugging
+1. Git & GitHub
+    - Excercise: Create issues, commmits, pull requests. 
+
+1. Debugging
     - Breakpoints/browser
     - Profvis
     - Excercise: 
 
-- Advanced Topics
+1. Advanced Topics
     - Future and promisses
     - Divide and concur by module
     - Shiny app as a package
     
-- Q&A (Open session)
+1. Q&A (Open session)
