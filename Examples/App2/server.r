@@ -5,11 +5,12 @@
 server <- function(input, output) { 
   
   #---- Data ----#
-  df <- reactive({
+  
+  df <- function(){
     df <- read.csv(glue("../../Data/HistSpotMonthlyAve_{input$market}.csv"))
     df$Month <- as.Date(df$Month, "%m/%d/%Y")
     df
-  })
+  }
   
   #---- UI ----#
   output$ui_variables <- renderUI({

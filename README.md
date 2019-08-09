@@ -4,7 +4,9 @@
 - Aug 27 & 28 2019, 12:30p - 4p (EST) or 9:30 - 1p (PST)
 
 #### Location
-- TBD (Two of conference rooms in TEA buildings)
+- Resource-JAX Boardroom
+- Resource-Seattle North Conference Room
+- Resource-Conf-3# +1 (872) 240-3212 Code: 122-799-485
 
 ## Agenda 
 
@@ -14,30 +16,31 @@
     - Install all needed packages
     - Download workshop files
 
-- Shiny Basic Review
-    - R objects/functions/reactiveValues and reactive objects
+- Basic app structures
     - Widget Gallery
-    - Excercise: Let's make a basic app! 
-    
-- Existing TEA Shiny Apps
-    
-- Shiny utilities
-    - 'teadashboard'
-        - Layouts
-        - Login info
-    - Tables
-    - Interactive plots
-    - Download
-    - Rmarkdown from shiny
-    - Data imports
-        - Timing
-        - Database connections
-    - Excercise: Let's add to the basic app!
 
-- Debugging
-    - Breakpoints/browser
-    - Profvis
-    - Excercise: 
+- 'teadashboard'
+    - Page layout
+    - login display
+    
+- Tour of Existing TEA Shiny Apps
+
+- Understanding Reactivity
+    - Reactive vs reactiveValues
+    - observe
+    
+- Timing for Loading Data
+
+- Table Choices
+
+- Adding Interactive Plots
+    - html widgets
+    - base shiny interactivity
+
+- Miscellaneous Topics
+    - Download 
+    - Progress bar
+    - Rmarkdown from shiny
 
 - Shiny vs Tableau (open group discussion)
 
@@ -54,12 +57,19 @@
 
 - Known Issues
     - Package management
+    - Concurrent uses
+    - Errors
 
 - Git & GitHub
     - Excercise: Create issues, commmits, pull requests. 
     
 - Apps out there
     - https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/
+
+- Debugging
+    - Breakpoints/browser
+    - Profvis
+    - Excercise: 
 
 - Advanced Topics
     - Future and promisses
