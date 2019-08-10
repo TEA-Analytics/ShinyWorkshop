@@ -28,8 +28,6 @@
 1. Understanding Reactivity
     - Reactive vs reactiveValues
     - observe
-    
-1. Timing for Loading Data
 
 1. Table Choices
 
@@ -40,6 +38,7 @@
 1. Miscellaneous Topics
     - Download 
     - Progress bar
+    - Hiding items
     - Rmarkdown from shiny
 
 1. Shiny vs Tableau (open group discussion)
@@ -61,6 +60,8 @@
     - Package management
     - Concurrent uses
     - Errors
+    
+1. Timing for Loading Data
     
 1. Apps out there
     - https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/
