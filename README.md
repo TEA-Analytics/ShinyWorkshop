@@ -8,6 +8,11 @@
 - Resource-Seattle North Conference Room
 - Resource-Conf-3# +1 (872) 240-3212 Code: 122-799-485
 
+### Prerequisites
+- https://www.datacamp.com/courses/building-web-applications-in-r-with-shiny-case-studies
+- https://www.datacamp.com/courses/building-dashboards-with-shinydashboard
+- https://shiny.rstudio.com/tutorial/ (Recommended by not necessary).
+
 ## Agenda 
 
 ### Aug 27
@@ -50,18 +55,19 @@
     - Projects with git
 
 1. Deployment process
-    - Dev vs Staging vs PROD
-    - File locations
-    - RStudio server
-    - Setting up user groups
+    - Shiny Server 
+    - Deployment steps
+    - App Configuration
     - External access by clients
 
 1. Known Issues
-    - Package management
+    - Errors 
+    - Version management
     - Concurrent uses
-    - Errors
     
-1. Timing for Loading Data
+1. Data Imports
+    - Database Connections
+    - Timing
     
 1. Apps out there
     - https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/
@@ -72,7 +78,6 @@
 1. Debugging
     - Breakpoints/browser
     - Profvis
-    - Excercise: 
 
 1. Advanced Topics
     - Future and promisses
