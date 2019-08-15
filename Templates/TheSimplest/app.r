@@ -29,7 +29,6 @@ ui <- dashboardPage(
 
   # Branding
   , dashboardFooter(brandImageURL = NULL, brandLinkTargetURL = NULL)
-  , skin = "red"
 )
 
 ## =========================================

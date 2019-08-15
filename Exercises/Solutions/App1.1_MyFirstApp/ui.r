@@ -1,23 +1,23 @@
 ## =========================================
-## UI
+##  Solution for Exercise 1   
+##   < UI >
 ## =========================================
 
 ui <- dashboardPage(
   
   # Header
-  dashboardHeader(title ="My App 1")
+  dashboardHeader(title ="Exercise 1")
   
   # Sidebar
   , dashboardSidebar(sidebarMenu(menuItem("Section 1", tabName = "section1", icon = icon("cubes"), selected=TRUE)))
   
   # Body
   , dashboardBody(tabItems(tabItem(tabName = "section1", 
-                                   selectInput("variable", label = "Variable", ts_names), 
+                                   dateRangeInput("dates", "Dates", start = "2018-1-1", end = "2018-12-31"), 
                                    plotOutput("tsplot1"), 
-                                   DTOutput("table1")
+                                   dataTableOutput("table1")
                                    )))
   
   # Branding
   , dashboardFooter(brandImageURL = NULL, brandLinkTargetURL = NULL)
-  , skin = "red"
 )

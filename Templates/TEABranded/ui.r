@@ -63,5 +63,4 @@ ui <- dashboardPage(
   
   #---- Footer ----#
   dashboardFooter(brandImageURL = NULL, brandLinkTargetURL = NULL),
-  skin = "red"
 )

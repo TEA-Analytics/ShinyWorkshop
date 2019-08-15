@@ -12,11 +12,11 @@ server <- function(input, output, session) {
   
   # Alternative login info dispaly
   output$userpanel <- renderUI({
-    if (!is.null(session$user)) {
-      sidebarUserPanel(
-        span("Logged in as ", session$user),
-        subtitle = a(icon("sign-out"), "Logout", href="__logout__"))
-    }
+    
+    user <- ifelse(is.null(session$user), "xxxxx", session$user)
+    sidebarUserPanel(
+      span("Logged in as ", user),
+      subtitle = a(icon("sign-out"), "Logout", href="__logout__"))
   })
   
   
