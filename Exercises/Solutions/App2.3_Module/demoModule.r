@@ -30,7 +30,7 @@ demoModule <- function(input, output, session, # always include these three
                        ) {
 
   output$tsplot1 <- renderPlot({
-    
+
     plot(df$Month, df[, input$variable], "l")
     
   })

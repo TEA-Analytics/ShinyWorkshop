@@ -52,8 +52,7 @@
 ### Aug 28
 
 1. Lunch/Breakfast
-    - Set up github connections
-    - Projects with git
+    - Set up git & github
 
 1. Deployment process
     - Shiny Server 
@@ -80,11 +79,9 @@
 
 1. Debugging
     - Breakpoints/browser
-    - Profvis
 
 1. Advanced Topics
     - Future and promisses
     - Divide and concur by module
-    - Shiny app as a package
     
 1. Q&A (Open session)
