@@ -42,7 +42,11 @@ ui <- dashboardPage(
                             box(width=12, "box6"))
                      ),
              tabItem(tabName = "section2_2", 
-                     fluidRow()),
+                     fluidRow(
+                       tabBox(
+                         tabPanel("Panel 1"),
+                         tabPanel("Panel 2")
+                     ))),
              
              # About
              tabItem(tabName = "about", 
