@@ -11,6 +11,9 @@ install.packages(c(
                    'rhandsontable', # interactive table
                    'formattable', # pretty table
                    'shinyjs', # Perform common useful JavaScript operations
+                   'dygraphs', # interactive time series plot
+                   'xts', # generate time series objects
+                   'rmarkdown', # generate reports
                    
                    # Databases
                    'RODBC', # old and proven
