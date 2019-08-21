@@ -1,5 +1,5 @@
 ## =========================================
-##  Exercise: 2-02
+##  Exercise: 2-03
 ##   < Global >
 ## =========================================
 
@@ -10,3 +10,5 @@ library(glue)
 
 # global options
 options(shiny.sanitize.errors = TRUE) 
+
+source("Module/demoModule.r")

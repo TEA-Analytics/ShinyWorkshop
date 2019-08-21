@@ -1,5 +1,5 @@
 ## =========================================
-##  App 2.2: Exercise
+##  Exercise: 2-02
 ##   < Server >
 ## =========================================
 
@@ -9,7 +9,7 @@ server <- function(input, output) {
     
     filename <- glue("../../../Data/HistSpotMonthlyAve_{input$market}.csv")
     
-    if(!file.exists(filename)) stop(safeError("Data was not found."))
+    if(!file.exists(filename)) stop(safeError(glue("Data was not found for {input$market}.")))
     
     df <- read.csv(filename)
     df$Month <- as.Date(df$Month, "%m/%d/%Y")

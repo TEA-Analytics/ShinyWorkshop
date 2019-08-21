@@ -1,12 +1,12 @@
 ## =========================================
-##  App 2.1: Exercise
+##  Exercise: 2-01
 ##   < UI >
 ## =========================================
 
 ui <- dashboardPage(
   
   # Header
-  dashboardHeader(title ="App 6")
+  dashboardHeader(title ="App 2-01")
   
   # Sidebar
   , dashboardSidebar(sidebarMenu(selectInput("market", label = "Market", choices = c("SPP", "CAISO", "MISO")), 

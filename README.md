@@ -70,9 +70,6 @@
     - Timing
     
 1. Apps out there
-    - https://shiny.rstudio.com/gallery/
-    - https://www.rstudio.com/products/shiny/shiny-user-showcase/
-    - https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/
 
 1. Git & GitHub
     - Excercise: Create issues, commmits, pull requests. 
