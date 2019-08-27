@@ -8,7 +8,7 @@ server <- function(input, output) {
   df <- reactive({
     df <- read.csv(glue("../../../Data/HistSpotMonthlyAve_{input$market}.csv"))
     df$Month <- as.Date(df$Month, "%m/%d/%Y")
-    print("read.csv")
+    # print("read.csv")
     df
   })
   

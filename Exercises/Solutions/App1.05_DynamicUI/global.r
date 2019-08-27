@@ -12,4 +12,5 @@ library(glue)
 options(shiny.reactlog=TRUE)
 
 # View reactivity
-# showReactLog() 
+# reactlogShow() 
+# reactlogReset()
