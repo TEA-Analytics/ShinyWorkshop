@@ -27,6 +27,7 @@ install.packages(c(
 
 # Custom Packages
 install.packages("//Analystfs/WestcoastData/Resources/RPackages/Binaries/3.3/teadashboard_0.7.1.1.zip", repos = NULL)
+# or use devtools::install_github("TEA-Analytics/teadashboard", auth_token = "<FillInYourAuthToken>")
 
 # Set up git
 library(usethis)
