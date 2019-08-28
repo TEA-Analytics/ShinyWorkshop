@@ -30,4 +30,7 @@ install.packages("//Analystfs/WestcoastData/Resources/RPackages/Binaries/3.3/tea
 
 # Set up git
 library(usethis)
-use_git_config(user.name = "Jane Doe", user.email = "jane@teainc.org")
+use_git_config(user.name = "Brad Gall", user.email = "bgall@teainc.org")
+
+
+install.packages('glue')
