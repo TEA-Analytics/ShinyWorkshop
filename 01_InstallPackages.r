@@ -30,4 +30,5 @@ install.packages("//Analystfs/WestcoastData/Resources/RPackages/Binaries/3.3/tea
 
 # Set up git
 library(usethis)
-use_git_config(user.name = "Jane Doe", user.email = "jane@teainc.org")
+use_git_config(user.name = "alakshmanan", user.email = "alakshmanan@teainc.org")
+print("Done")
